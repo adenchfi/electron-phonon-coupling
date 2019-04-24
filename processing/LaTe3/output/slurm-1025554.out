@@ -1,0 +1,12 @@
+
+The following have been reloaded with a version change:
+  1) intel/cluster.2018.3 => intel/17.0.4-74uvhji
+
+
+Inactive Modules:
+  1) intel-mkl     2) intel-mpi
+
+The following have been reloaded with a version change:
+  1) intel/17.0.4-74uvhji => intel/cluster.2018.3
+
+slurmstepd: error: *** JOB 1025554 ON bdw-0512 CANCELLED AT 2019-04-19T22:20:36 ***

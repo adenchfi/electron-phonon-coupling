@@ -1,0 +1,721 @@
+bdw-0512.168672 PSM2_IDENTIFY PSM2 v2.1
+bdw-0512.168672 PSM2_IDENTIFY location /lib64/libpsm2.so.2
+bdw-0512.168672 PSM2_IDENTIFY build date 2017-10-25 22:45:16+00:00
+bdw-0512.168672 PSM2_IDENTIFY src checksum 4a3b39b93920ff4b7cb95ec90a1ff6d6df07d111
+bdw-0512.168672 PSM2_IDENTIFY git checksum 61c8d25f4d7248c12cbdab63671a5bd237e81321
+bdw-0512.168672 PSM2_IDENTIFY built against driver interface v6.3
+bdw-0512.168671 PSM2_IDENTIFY PSM2 v2.1
+bdw-0512.168671 PSM2_IDENTIFY location /lib64/libpsm2.so.2
+bdw-0512.168671 PSM2_IDENTIFY build date 2017-10-25 22:45:16+00:00
+bdw-0512.168671 PSM2_IDENTIFY src checksum 4a3b39b93920ff4b7cb95ec90a1ff6d6df07d111
+bdw-0512.168671 PSM2_IDENTIFY git checksum 61c8d25f4d7248c12cbdab63671a5bd237e81321
+bdw-0512.168671 PSM2_IDENTIFY built against driver interface v6.3
+bdw-0512.168654 PSM2_IDENTIFY PSM2 v2.1
+bdw-0512.168654 PSM2_IDENTIFY location /lib64/libpsm2.so.2
+bdw-0512.168654 PSM2_IDENTIFY build date 2017-10-25 22:45:16+00:00
+bdw-0512.168654 PSM2_IDENTIFY src checksum 4a3b39b93920ff4b7cb95ec90a1ff6d6df07d111
+bdw-0512.168654 PSM2_IDENTIFY git checksum 61c8d25f4d7248c12cbdab63671a5bd237e81321
+bdw-0512.168654 PSM2_IDENTIFY built against driver interface v6.3
+bdw-0512.168651 PSM2_IDENTIFY PSM2 v2.1
+bdw-0512.168651 PSM2_IDENTIFY location /lib64/libpsm2.so.2
+bdw-0512.168651 PSM2_IDENTIFY build date 2017-10-25 22:45:16+00:00
+bdw-0512.168651 PSM2_IDENTIFY src checksum 4a3b39b93920ff4b7cb95ec90a1ff6d6df07d111
+bdw-0512.168651 PSM2_IDENTIFY git checksum 61c8d25f4d7248c12cbdab63671a5bd237e81321
+bdw-0512.168651 PSM2_IDENTIFY built against driver interface v6.3
+bdw-0512.168665 PSM2_IDENTIFY PSM2 v2.1
+bdw-0512.168665 PSM2_IDENTIFY location /lib64/libpsm2.so.2
+bdw-0512.168665 PSM2_IDENTIFY build date 2017-10-25 22:45:16+00:00
+bdw-0512.168665 PSM2_IDENTIFY src checksum 4a3b39b93920ff4b7cb95ec90a1ff6d6df07d111
+bdw-0512.168665 PSM2_IDENTIFY git checksum 61c8d25f4d7248c12cbdab63671a5bd237e81321
+bdw-0512.168665 PSM2_IDENTIFY built against driver interface v6.3
+bdw-0512.168669 PSM2_IDENTIFY PSM2 v2.1
+bdw-0512.168669 PSM2_IDENTIFY location /lib64/libpsm2.so.2
+bdw-0512.168669 PSM2_IDENTIFY build date 2017-10-25 22:45:16+00:00
+bdw-0512.168669 PSM2_IDENTIFY src checksum 4a3b39b93920ff4b7cb95ec90a1ff6d6df07d111
+bdw-0512.168669 PSM2_IDENTIFY git checksum 61c8d25f4d7248c12cbdab63671a5bd237e81321
+bdw-0512.168669 PSM2_IDENTIFY built against driver interface v6.3
+bdw-0512.168648 PSM2_IDENTIFY PSM2 v2.1
+bdw-0512.168648 PSM2_IDENTIFY location /lib64/libpsm2.so.2
+bdw-0512.168648 PSM2_IDENTIFY build date 2017-10-25 22:45:16+00:00
+bdw-0512.168648 PSM2_IDENTIFY src checksum 4a3b39b93920ff4b7cb95ec90a1ff6d6df07d111
+bdw-0512.168648 PSM2_IDENTIFY git checksum 61c8d25f4d7248c12cbdab63671a5bd237e81321
+bdw-0512.168648 PSM2_IDENTIFY built against driver interface v6.3
+bdw-0512.168666 PSM2_IDENTIFY PSM2 v2.1
+bdw-0512.168666 PSM2_IDENTIFY location /lib64/libpsm2.so.2
+bdw-0512.168666 PSM2_IDENTIFY build date 2017-10-25 22:45:16+00:00
+bdw-0512.168666 PSM2_IDENTIFY src checksum 4a3b39b93920ff4b7cb95ec90a1ff6d6df07d111
+bdw-0512.168666 PSM2_IDENTIFY git checksum 61c8d25f4d7248c12cbdab63671a5bd237e81321
+bdw-0512.168666 PSM2_IDENTIFY built against driver interface v6.3
+bdw-0512.168663 PSM2_IDENTIFY PSM2 v2.1
+bdw-0512.168663 PSM2_IDENTIFY location /lib64/libpsm2.so.2
+bdw-0512.168663 PSM2_IDENTIFY build date 2017-10-25 22:45:16+00:00
+bdw-0512.168663 PSM2_IDENTIFY src checksum 4a3b39b93920ff4b7cb95ec90a1ff6d6df07d111
+bdw-0512.168663 PSM2_IDENTIFY git checksum 61c8d25f4d7248c12cbdab63671a5bd237e81321
+bdw-0512.168663 PSM2_IDENTIFY built against driver interface v6.3
+bdw-0512.168660 PSM2_IDENTIFY PSM2 v2.1
+bdw-0512.168660 PSM2_IDENTIFY location /lib64/libpsm2.so.2
+bdw-0512.168660 PSM2_IDENTIFY build date 2017-10-25 22:45:16+00:00
+bdw-0512.168660 PSM2_IDENTIFY src checksum 4a3b39b93920ff4b7cb95ec90a1ff6d6df07d111
+bdw-0512.168660 PSM2_IDENTIFY git checksum 61c8d25f4d7248c12cbdab63671a5bd237e81321
+bdw-0512.168660 PSM2_IDENTIFY built against driver interface v6.3
+bdw-0512.168645 PSM2_IDENTIFY PSM2 v2.1
+bdw-0512.168645 PSM2_IDENTIFY location /lib64/libpsm2.so.2
+bdw-0512.168645 PSM2_IDENTIFY build date 2017-10-25 22:45:16+00:00
+bdw-0512.168645 PSM2_IDENTIFY src checksum 4a3b39b93920ff4b7cb95ec90a1ff6d6df07d111
+bdw-0512.168645 PSM2_IDENTIFY git checksum 61c8d25f4d7248c12cbdab63671a5bd237e81321
+bdw-0512.168645 PSM2_IDENTIFY built against driver interface v6.3
+bdw-0512.168653 PSM2_IDENTIFY PSM2 v2.1
+bdw-0512.168653 PSM2_IDENTIFY location /lib64/libpsm2.so.2
+bdw-0512.168653 PSM2_IDENTIFY build date 2017-10-25 22:45:16+00:00
+bdw-0512.168653 PSM2_IDENTIFY src checksum 4a3b39b93920ff4b7cb95ec90a1ff6d6df07d111
+bdw-0512.168653 PSM2_IDENTIFY git checksum 61c8d25f4d7248c12cbdab63671a5bd237e81321
+bdw-0512.168653 PSM2_IDENTIFY built against driver interface v6.3
+bdw-0512.168658 PSM2_IDENTIFY PSM2 v2.1
+bdw-0512.168658 PSM2_IDENTIFY location /lib64/libpsm2.so.2
+bdw-0512.168658 PSM2_IDENTIFY build date 2017-10-25 22:45:16+00:00
+bdw-0512.168658 PSM2_IDENTIFY src checksum 4a3b39b93920ff4b7cb95ec90a1ff6d6df07d111
+bdw-0512.168658 PSM2_IDENTIFY git checksum 61c8d25f4d7248c12cbdab63671a5bd237e81321
+bdw-0512.168658 PSM2_IDENTIFY built against driver interface v6.3
+bdw-0512.168643 PSM2_IDENTIFY PSM2 v2.1
+bdw-0512.168643 PSM2_IDENTIFY location /lib64/libpsm2.so.2
+bdw-0512.168643 PSM2_IDENTIFY build date 2017-10-25 22:45:16+00:00
+bdw-0512.168643 PSM2_IDENTIFY src checksum 4a3b39b93920ff4b7cb95ec90a1ff6d6df07d111
+bdw-0512.168643 PSM2_IDENTIFY git checksum 61c8d25f4d7248c12cbdab63671a5bd237e81321
+bdw-0512.168643 PSM2_IDENTIFY built against driver interface v6.3
+bdw-0512.168655 PSM2_IDENTIFY PSM2 v2.1
+bdw-0512.168655 PSM2_IDENTIFY location /lib64/libpsm2.so.2
+bdw-0512.168655 PSM2_IDENTIFY build date 2017-10-25 22:45:16+00:00
+bdw-0512.168655 PSM2_IDENTIFY src checksum 4a3b39b93920ff4b7cb95ec90a1ff6d6df07d111
+bdw-0512.168655 PSM2_IDENTIFY git checksum 61c8d25f4d7248c12cbdab63671a5bd237e81321
+bdw-0512.168655 PSM2_IDENTIFY built against driver interface v6.3
+bdw-0512.168647 PSM2_IDENTIFY PSM2 v2.1
+bdw-0512.168647 PSM2_IDENTIFY location /lib64/libpsm2.so.2
+bdw-0512.168647 PSM2_IDENTIFY build date 2017-10-25 22:45:16+00:00
+bdw-0512.168647 PSM2_IDENTIFY src checksum 4a3b39b93920ff4b7cb95ec90a1ff6d6df07d111
+bdw-0512.168647 PSM2_IDENTIFY git checksum 61c8d25f4d7248c12cbdab63671a5bd237e81321
+bdw-0512.168647 PSM2_IDENTIFY built against driver interface v6.3
+bdw-0512.168644 PSM2_IDENTIFY PSM2 v2.1
+bdw-0512.168644 PSM2_IDENTIFY location /lib64/libpsm2.so.2
+bdw-0512.168644 PSM2_IDENTIFY build date 2017-10-25 22:45:16+00:00
+bdw-0512.168644 PSM2_IDENTIFY src checksum 4a3b39b93920ff4b7cb95ec90a1ff6d6df07d111
+bdw-0512.168644 PSM2_IDENTIFY git checksum 61c8d25f4d7248c12cbdab63671a5bd237e81321
+bdw-0512.168644 PSM2_IDENTIFY built against driver interface v6.3
+bdw-0512.168652 PSM2_IDENTIFY PSM2 v2.1
+bdw-0512.168652 PSM2_IDENTIFY location /lib64/libpsm2.so.2
+bdw-0512.168652 PSM2_IDENTIFY build date 2017-10-25 22:45:16+00:00
+bdw-0512.168652 PSM2_IDENTIFY src checksum 4a3b39b93920ff4b7cb95ec90a1ff6d6df07d111
+bdw-0512.168652 PSM2_IDENTIFY git checksum 61c8d25f4d7248c12cbdab63671a5bd237e81321
+bdw-0512.168652 PSM2_IDENTIFY built against driver interface v6.3
+bdw-0512.168651 PSM2_IDENTIFY run-time driver interface v6.3
+bdw-0512.168654 PSM2_IDENTIFY run-time driver interface v6.3
+bdw-0512.168646 PSM2_IDENTIFY PSM2 v2.1
+bdw-0512.168646 PSM2_IDENTIFY location /lib64/libpsm2.so.2
+bdw-0512.168646 PSM2_IDENTIFY build date 2017-10-25 22:45:16+00:00
+bdw-0512.168646 PSM2_IDENTIFY src checksum 4a3b39b93920ff4b7cb95ec90a1ff6d6df07d111
+bdw-0512.168646 PSM2_IDENTIFY git checksum 61c8d25f4d7248c12cbdab63671a5bd237e81321
+bdw-0512.168646 PSM2_IDENTIFY built against driver interface v6.3
+bdw-0512.168649 PSM2_IDENTIFY PSM2 v2.1
+bdw-0512.168649 PSM2_IDENTIFY location /lib64/libpsm2.so.2
+bdw-0512.168649 PSM2_IDENTIFY build date 2017-10-25 22:45:16+00:00
+bdw-0512.168649 PSM2_IDENTIFY src checksum 4a3b39b93920ff4b7cb95ec90a1ff6d6df07d111
+bdw-0512.168649 PSM2_IDENTIFY git checksum 61c8d25f4d7248c12cbdab63671a5bd237e81321
+bdw-0512.168649 PSM2_IDENTIFY built against driver interface v6.3
+bdw-0512.168664 PSM2_IDENTIFY PSM2 v2.1
+bdw-0512.168664 PSM2_IDENTIFY location /lib64/libpsm2.so.2
+bdw-0512.168664 PSM2_IDENTIFY build date 2017-10-25 22:45:16+00:00
+bdw-0512.168664 PSM2_IDENTIFY src checksum 4a3b39b93920ff4b7cb95ec90a1ff6d6df07d111
+bdw-0512.168664 PSM2_IDENTIFY git checksum 61c8d25f4d7248c12cbdab63671a5bd237e81321
+bdw-0512.168664 PSM2_IDENTIFY built against driver interface v6.3
+bdw-0512.168650 PSM2_IDENTIFY PSM2 v2.1
+bdw-0512.168650 PSM2_IDENTIFY location /lib64/libpsm2.so.2
+bdw-0512.168650 PSM2_IDENTIFY build date 2017-10-25 22:45:16+00:00
+bdw-0512.168650 PSM2_IDENTIFY src checksum 4a3b39b93920ff4b7cb95ec90a1ff6d6df07d111
+bdw-0512.168650 PSM2_IDENTIFY git checksum 61c8d25f4d7248c12cbdab63671a5bd237e81321
+bdw-0512.168650 PSM2_IDENTIFY built against driver interface v6.3
+bdw-0512.168656 PSM2_IDENTIFY PSM2 v2.1
+bdw-0512.168656 PSM2_IDENTIFY location /lib64/libpsm2.so.2
+bdw-0512.168656 PSM2_IDENTIFY build date 2017-10-25 22:45:16+00:00
+bdw-0512.168656 PSM2_IDENTIFY src checksum 4a3b39b93920ff4b7cb95ec90a1ff6d6df07d111
+bdw-0512.168656 PSM2_IDENTIFY git checksum 61c8d25f4d7248c12cbdab63671a5bd237e81321
+bdw-0512.168656 PSM2_IDENTIFY built against driver interface v6.3
+bdw-0512.168661 PSM2_IDENTIFY PSM2 v2.1
+bdw-0512.168661 PSM2_IDENTIFY location /lib64/libpsm2.so.2
+bdw-0512.168661 PSM2_IDENTIFY build date 2017-10-25 22:45:16+00:00
+bdw-0512.168661 PSM2_IDENTIFY src checksum 4a3b39b93920ff4b7cb95ec90a1ff6d6df07d111
+bdw-0512.168661 PSM2_IDENTIFY git checksum 61c8d25f4d7248c12cbdab63671a5bd237e81321
+bdw-0512.168661 PSM2_IDENTIFY built against driver interface v6.3
+bdw-0512.168667 PSM2_IDENTIFY PSM2 v2.1
+bdw-0512.168667 PSM2_IDENTIFY location /lib64/libpsm2.so.2
+bdw-0512.168667 PSM2_IDENTIFY build date 2017-10-25 22:45:16+00:00
+bdw-0512.168667 PSM2_IDENTIFY src checksum 4a3b39b93920ff4b7cb95ec90a1ff6d6df07d111
+bdw-0512.168667 PSM2_IDENTIFY git checksum 61c8d25f4d7248c12cbdab63671a5bd237e81321
+bdw-0512.168667 PSM2_IDENTIFY built against driver interface v6.3
+bdw-0512.168641 PSM2_IDENTIFY PSM2 v2.1
+bdw-0512.168641 PSM2_IDENTIFY location /lib64/libpsm2.so.2
+bdw-0512.168641 PSM2_IDENTIFY build date 2017-10-25 22:45:16+00:00
+bdw-0512.168641 PSM2_IDENTIFY src checksum 4a3b39b93920ff4b7cb95ec90a1ff6d6df07d111
+bdw-0512.168641 PSM2_IDENTIFY git checksum 61c8d25f4d7248c12cbdab63671a5bd237e81321
+bdw-0512.168641 PSM2_IDENTIFY built against driver interface v6.3
+bdw-0512.168642 PSM2_IDENTIFY PSM2 v2.1
+bdw-0512.168642 PSM2_IDENTIFY location /lib64/libpsm2.so.2
+bdw-0512.168642 PSM2_IDENTIFY build date 2017-10-25 22:45:16+00:00
+bdw-0512.168642 PSM2_IDENTIFY src checksum 4a3b39b93920ff4b7cb95ec90a1ff6d6df07d111
+bdw-0512.168642 PSM2_IDENTIFY git checksum 61c8d25f4d7248c12cbdab63671a5bd237e81321
+bdw-0512.168642 PSM2_IDENTIFY built against driver interface v6.3
+bdw-0512.168662 PSM2_IDENTIFY PSM2 v2.1
+bdw-0512.168662 PSM2_IDENTIFY location /lib64/libpsm2.so.2
+bdw-0512.168662 PSM2_IDENTIFY build date 2017-10-25 22:45:16+00:00
+bdw-0512.168662 PSM2_IDENTIFY src checksum 4a3b39b93920ff4b7cb95ec90a1ff6d6df07d111
+bdw-0512.168662 PSM2_IDENTIFY git checksum 61c8d25f4d7248c12cbdab63671a5bd237e81321
+bdw-0512.168662 PSM2_IDENTIFY built against driver interface v6.3
+bdw-0512.168670 PSM2_IDENTIFY PSM2 v2.1
+bdw-0512.168670 PSM2_IDENTIFY location /lib64/libpsm2.so.2
+bdw-0512.168670 PSM2_IDENTIFY build date 2017-10-25 22:45:16+00:00
+bdw-0512.168670 PSM2_IDENTIFY src checksum 4a3b39b93920ff4b7cb95ec90a1ff6d6df07d111
+bdw-0512.168670 PSM2_IDENTIFY git checksum 61c8d25f4d7248c12cbdab63671a5bd237e81321
+bdw-0512.168670 PSM2_IDENTIFY built against driver interface v6.3
+bdw-0512.168648 PSM2_IDENTIFY run-time driver interface v6.3
+bdw-0512.168672 PSM2_IDENTIFY run-time driver interface v6.3
+bdw-0512.168645 PSM2_IDENTIFY run-time driver interface v6.3
+bdw-0512.168657 PSM2_IDENTIFY PSM2 v2.1
+bdw-0512.168657 PSM2_IDENTIFY location /lib64/libpsm2.so.2
+bdw-0512.168657 PSM2_IDENTIFY build date 2017-10-25 22:45:16+00:00
+bdw-0512.168657 PSM2_IDENTIFY src checksum 4a3b39b93920ff4b7cb95ec90a1ff6d6df07d111
+bdw-0512.168657 PSM2_IDENTIFY git checksum 61c8d25f4d7248c12cbdab63671a5bd237e81321
+bdw-0512.168657 PSM2_IDENTIFY built against driver interface v6.3
+bdw-0512.168659 PSM2_IDENTIFY PSM2 v2.1
+bdw-0512.168659 PSM2_IDENTIFY location /lib64/libpsm2.so.2
+bdw-0512.168659 PSM2_IDENTIFY build date 2017-10-25 22:45:16+00:00
+bdw-0512.168659 PSM2_IDENTIFY src checksum 4a3b39b93920ff4b7cb95ec90a1ff6d6df07d111
+bdw-0512.168659 PSM2_IDENTIFY git checksum 61c8d25f4d7248c12cbdab63671a5bd237e81321
+bdw-0512.168659 PSM2_IDENTIFY built against driver interface v6.3
+bdw-0512.168668 PSM2_IDENTIFY PSM2 v2.1
+bdw-0512.168668 PSM2_IDENTIFY location /lib64/libpsm2.so.2
+bdw-0512.168668 PSM2_IDENTIFY build date 2017-10-25 22:45:16+00:00
+bdw-0512.168668 PSM2_IDENTIFY src checksum 4a3b39b93920ff4b7cb95ec90a1ff6d6df07d111
+bdw-0512.168668 PSM2_IDENTIFY git checksum 61c8d25f4d7248c12cbdab63671a5bd237e81321
+bdw-0512.168668 PSM2_IDENTIFY built against driver interface v6.3
+bdw-0512.168671 PSM2_IDENTIFY run-time driver interface v6.3
+bdw-0512.168643 PSM2_IDENTIFY run-time driver interface v6.3
+bdw-0512.168653 PSM2_IDENTIFY run-time driver interface v6.3
+bdw-0512.168655 PSM2_IDENTIFY run-time driver interface v6.3
+bdw-0512.168647 PSM2_IDENTIFY run-time driver interface v6.3
+bdw-0512.168644 PSM2_IDENTIFY run-time driver interface v6.3
+bdw-0512.168652 PSM2_IDENTIFY run-time driver interface v6.3
+bdw-0512.168646 PSM2_IDENTIFY run-time driver interface v6.3
+bdw-0512.168649 PSM2_IDENTIFY run-time driver interface v6.3
+bdw-0512.168665 PSM2_IDENTIFY run-time driver interface v6.3
+bdw-0512.168650 PSM2_IDENTIFY run-time driver interface v6.3
+bdw-0512.168669 PSM2_IDENTIFY run-time driver interface v6.3
+bdw-0512.168656 PSM2_IDENTIFY run-time driver interface v6.3
+bdw-0512.168642 PSM2_IDENTIFY run-time driver interface v6.3
+bdw-0512.168641 PSM2_IDENTIFY run-time driver interface v6.3
+bdw-0512.168666 PSM2_IDENTIFY run-time driver interface v6.3
+bdw-0512.168663 PSM2_IDENTIFY run-time driver interface v6.3
+bdw-0512.168660 PSM2_IDENTIFY run-time driver interface v6.3
+bdw-0512.168658 PSM2_IDENTIFY run-time driver interface v6.3
+bdw-0512.168664 PSM2_IDENTIFY run-time driver interface v6.3
+bdw-0512.168667 PSM2_IDENTIFY run-time driver interface v6.3
+bdw-0512.168661 PSM2_IDENTIFY run-time driver interface v6.3
+bdw-0512.168662 PSM2_IDENTIFY run-time driver interface v6.3
+bdw-0512.168670 PSM2_IDENTIFY run-time driver interface v6.3
+bdw-0512.168668 PSM2_IDENTIFY run-time driver interface v6.3
+bdw-0512.168659 PSM2_IDENTIFY run-time driver interface v6.3
+bdw-0512.168657 PSM2_IDENTIFY run-time driver interface v6.3
+
+     Program PWSCF v.6.4 starts on 19Apr2019 at 21:49:49 
+
+     This program is part of the open-source Quantum ESPRESSO suite
+     for quantum simulation of materials; please cite
+         "P. Giannozzi et al., J. Phys.:Condens. Matter 21 395502 (2009);
+         "P. Giannozzi et al., J. Phys.:Condens. Matter 29 465901 (2017);
+          URL http://www.quantum-espresso.org", 
+     in publications or presentations arising from this work. More details at
+     http://www.quantum-espresso.org/quote
+
+     Parallel version (MPI), running on    32 processors
+
+     MPI processes distributed on     1 nodes
+     R & G space division:  proc/nbgrp/npool/nimage =      32
+     Waiting for input...
+     Reading input from standard input
+Warning: card &IONS ignored
+Warning: card                 ION_DYNAMICS = 'BFGS' ignored
+Warning: card  / ignored
+
+     Current dimensions of program PWSCF are:
+     Max number of different atomic species (ntypx) = 10
+     Max number of k-points (npk) =  40000
+     Max angular momentum in pseudopotentials (lmaxx) =  3
+     Message from routine read_upf::
+     Pseudo file La.pbe-spdfn-rrkjus_psl.1.0.0.UPF has been fixed on the fly.
+To avoid this message in the future, permanently fix 
+ your pseudo files following these instructions: 
+https://gitlab.com/QEF/q-e/blob/master/upftools/how_to_fix_upf.md
+     Message from routine read_upf::
+     Pseudo file Te.pbe-dn-rrkjus_psl.1.0.0.UPF has been fixed on the fly.
+To avoid this message in the future, permanently fix 
+ your pseudo files following these instructions: 
+https://gitlab.com/QEF/q-e/blob/master/upftools/how_to_fix_upf.md
+               file La.pbe-spdfn-rrkjus_psl.1.0.0.UPF: wavefunction(s)  5S 4F renormalized
+
+     Subspace diagonalization in iterative solution of the eigenvalue problem:
+     one sub-group per band group will be used
+     ELPA distributed-memory algorithm (size of sub-group:  4*  4 procs)
+
+ 
+     Parallelization info
+     --------------------
+     sticks:   dense  smooth     PW     G-vecs:    dense   smooth      PW
+     Min         257     128     34                10012     3544     486
+     Max         259     130     36                10013     3545     487
+     Sum        8239    4123   1103               320405   113427   15555
+ 
+
+     Title: 
+     LaTe3_mp-1078612_primitive.cif                                             
+
+
+     bravais-lattice index     =            0
+     lattice parameter (alat)  =      26.0248  a.u.
+     unit-cell volume          =    1803.7499 (a.u.)^3
+     number of atoms/cell      =            8
+     number of atomic types    =            2
+     number of electrons       =       138.00
+     number of Kohn-Sham states=           69
+     kinetic-energy cutoff     =      60.0000  Ry
+     charge density cutoff     =     480.0000  Ry
+     convergence threshold     =      1.0E-07
+     mixing beta               =       0.5000
+     number of iterations used =            8  plain     mixing
+     Exchange-correlation      = PBE ( 1  4  3  4 0 0)
+
+     celldm(1)=  26.024825  celldm(2)=   0.000000  celldm(3)=   0.000000
+     celldm(4)=   0.000000  celldm(5)=   0.000000  celldm(6)=   0.000000
+
+     crystal axes: (cart. coord. in units of alat)
+               a(1) = (   1.000000   0.000000   0.000000 )  
+               a(2) = (  -0.948040   0.318150   0.000000 )  
+               a(3) = (   0.000000   0.000000   0.321648 )  
+
+     reciprocal axes: (cart. coord. in units 2 pi/alat)
+               b(1) = (  1.000000  2.979855  0.000000 )  
+               b(2) = (  0.000000  3.143173  0.000000 )  
+               b(3) = (  0.000000  0.000000  3.108987 )  
+
+
+     PseudoPot. # 1 for La read from file:
+     /soft/espresso/pslibrary.1.0.0/pbe/PSEUDOPOTENTIALS/La.pbe-spdfn-rrkjus_psl.1.0.0.UPF
+     MD5 check sum: 96159be751344b2bee11c762977bbd84
+     Pseudo is Ultrasoft + core correction, Zval = 21.0
+     Generated using "atomic" code by A. Dal Corso v.5.1
+     Using radial grid of 1253 points,  8 beta functions with: 
+                l(1) =   0
+                l(2) =   0
+                l(3) =   1
+                l(4) =   1
+                l(5) =   2
+                l(6) =   2
+                l(7) =   3
+                l(8) =   3
+     Q(r) pseudized with 0 coefficients 
+
+
+     PseudoPot. # 2 for Te read from file:
+     /soft/espresso/pslibrary.1.0.0/pbe/PSEUDOPOTENTIALS/Te.pbe-dn-rrkjus_psl.1.0.0.UPF
+     MD5 check sum: 9d9aa100a850b8708ed88d0b32baef88
+     Pseudo is Ultrasoft + core correction, Zval = 16.0
+     Generated using "atomic" code by A. Dal Corso v.5.1
+     Using radial grid of 1245 points,  6 beta functions with: 
+                l(1) =   0
+                l(2) =   0
+                l(3) =   1
+                l(4) =   1
+                l(5) =   2
+                l(6) =   2
+     Q(r) pseudized with 0 coefficients 
+
+
+     atomic species   valence    mass     pseudopotential
+        La            21.00   138.90500     La( 1.00)
+        Te            16.00   127.60000     Te( 1.00)
+
+      4 Sym. Ops., with inversion, found ( 2 have fractional translation)
+
+
+
+   Cartesian axes
+
+     site n.     atom                  positions (alat units)
+         1           La  tau(   1) = (   0.6491352   0.0573024   0.0804119  )
+         2           La  tau(   2) = (  -0.5971752   0.2608473   0.2412358  )
+         3           Te  tau(   3) = (  -0.7783531   0.2904369   0.0804119  )
+         4           Te  tau(   4) = (   0.8303131   0.0277128   0.2412358  )
+         5           Te  tau(   5) = (  -0.1160187   0.1822658   0.0804119  )
+         6           Te  tau(   6) = (   0.1679786   0.1358839   0.2412358  )
+         7           Te  tau(   7) = (   0.4149799   0.0955442   0.0804119  )
+         8           Te  tau(   8) = (  -0.3630199   0.2226055   0.2412358  )
+
+     number of k points=     2
+                       cart. coord. in units 2pi/alat
+        k(    1) = (   0.0000000   0.0000000   0.0000000), wk =   0.6666667
+        k(    2) = (   0.0000000   0.0000000   1.0363289), wk =   1.3333333
+
+     Dense  grid:   320405 G-vectors     FFT dimensions: ( 192, 192,  60)
+
+     Smooth grid:   113427 G-vectors     FFT dimensions: ( 135, 135,  48)
+
+     Estimated max dynamical RAM per process >     141.17 MB
+
+     Estimated total dynamical RAM >       4.41 GB
+
+     Initial potential from superposition of free atoms
+
+     starting charge  137.98163, renormalised to  138.00000
+     Starting wfcs are   98 atomic wfcs
+
+     total cpu time spent up to now is        3.8 secs
+
+     Self-consistent Calculation
+
+     iteration #  1     ecut=    60.00 Ry     beta= 0.50
+     Davidson diagonalization with overlap
+     ethr =  1.00E-04,  avg # of iterations =  8.5
+
+     total cpu time spent up to now is        5.8 secs
+
+     total energy              =   -2051.29719521 Ry
+     Harris-Foulkes estimate   =   -2052.34401435 Ry
+     estimated scf accuracy    <       1.65314687 Ry
+
+     iteration #  2     ecut=    60.00 Ry     beta= 0.50
+     Davidson diagonalization with overlap
+     ethr =  1.20E-03,  avg # of iterations =  7.5
+
+     total cpu time spent up to now is        7.6 secs
+
+     total energy              =   -2049.05795251 Ry
+     Harris-Foulkes estimate   =   -2055.92829268 Ry
+     estimated scf accuracy    <      52.95934325 Ry
+
+     iteration #  3     ecut=    60.00 Ry     beta= 0.50
+     Davidson diagonalization with overlap
+     ethr =  1.20E-03,  avg # of iterations =  7.0
+
+     total cpu time spent up to now is        9.3 secs
+
+     total energy              =   -2052.15584579 Ry
+     Harris-Foulkes estimate   =   -2052.26048958 Ry
+     estimated scf accuracy    <       0.37992957 Ry
+
+     iteration #  4     ecut=    60.00 Ry     beta= 0.50
+     Davidson diagonalization with overlap
+     ethr =  2.75E-04,  avg # of iterations =  5.0
+
+     total cpu time spent up to now is       10.8 secs
+
+     total energy              =   -2052.19339101 Ry
+     Harris-Foulkes estimate   =   -2052.20532296 Ry
+     estimated scf accuracy    <       0.09482646 Ry
+
+     iteration #  5     ecut=    60.00 Ry     beta= 0.50
+     Davidson diagonalization with overlap
+     ethr =  6.87E-05,  avg # of iterations =  5.0
+
+     total cpu time spent up to now is       12.2 secs
+
+     total energy              =   -2052.20240688 Ry
+     Harris-Foulkes estimate   =   -2052.20772287 Ry
+     estimated scf accuracy    <       0.02276034 Ry
+
+     iteration #  6     ecut=    60.00 Ry     beta= 0.50
+     Davidson diagonalization with overlap
+     ethr =  1.65E-05,  avg # of iterations =  4.5
+
+     total cpu time spent up to now is       13.7 secs
+
+     total energy              =   -2052.20378619 Ry
+     Harris-Foulkes estimate   =   -2052.20512694 Ry
+     estimated scf accuracy    <       0.00604118 Ry
+
+     iteration #  7     ecut=    60.00 Ry     beta= 0.50
+     Davidson diagonalization with overlap
+     ethr =  4.38E-06,  avg # of iterations =  5.5
+
+     total cpu time spent up to now is       15.2 secs
+
+     total energy              =   -2052.20502864 Ry
+     Harris-Foulkes estimate   =   -2052.20503832 Ry
+     estimated scf accuracy    <       0.00022078 Ry
+
+     iteration #  8     ecut=    60.00 Ry     beta= 0.50
+     Davidson diagonalization with overlap
+     ethr =  1.60E-07,  avg # of iterations =  5.0
+
+     total cpu time spent up to now is       17.0 secs
+
+     total energy              =   -2052.20516324 Ry
+     Harris-Foulkes estimate   =   -2052.20521638 Ry
+     estimated scf accuracy    <       0.00015418 Ry
+
+     iteration #  9     ecut=    60.00 Ry     beta= 0.50
+     Davidson diagonalization with overlap
+     ethr =  1.12E-07,  avg # of iterations =  4.0
+
+     total cpu time spent up to now is       18.4 secs
+
+     total energy              =   -2052.20516712 Ry
+     Harris-Foulkes estimate   =   -2052.20517835 Ry
+     estimated scf accuracy    <       0.00003526 Ry
+
+     iteration # 10     ecut=    60.00 Ry     beta= 0.50
+     Davidson diagonalization with overlap
+     ethr =  2.55E-08,  avg # of iterations =  5.0
+
+     total cpu time spent up to now is       20.1 secs
+
+     total energy              =   -2052.20518237 Ry
+     Harris-Foulkes estimate   =   -2052.20518464 Ry
+     estimated scf accuracy    <       0.00001194 Ry
+
+     iteration # 11     ecut=    60.00 Ry     beta= 0.50
+     Davidson diagonalization with overlap
+     ethr =  8.65E-09,  avg # of iterations =  3.0
+
+     total cpu time spent up to now is       21.4 secs
+
+     total energy              =   -2052.20518099 Ry
+     Harris-Foulkes estimate   =   -2052.20518326 Ry
+     estimated scf accuracy    <       0.00000425 Ry
+
+     iteration # 12     ecut=    60.00 Ry     beta= 0.50
+     Davidson diagonalization with overlap
+     ethr =  3.08E-09,  avg # of iterations =  4.5
+
+     total cpu time spent up to now is       23.0 secs
+
+     total energy              =   -2052.20518234 Ry
+     Harris-Foulkes estimate   =   -2052.20518255 Ry
+     estimated scf accuracy    <       0.00000100 Ry
+
+     iteration # 13     ecut=    60.00 Ry     beta= 0.50
+     Davidson diagonalization with overlap
+     ethr =  7.24E-10,  avg # of iterations =  3.5
+
+     total cpu time spent up to now is       24.4 secs
+
+     total energy              =   -2052.20518231 Ry
+     Harris-Foulkes estimate   =   -2052.20518242 Ry
+     estimated scf accuracy    <       0.00000030 Ry
+
+     iteration # 14     ecut=    60.00 Ry     beta= 0.50
+     Davidson diagonalization with overlap
+     ethr =  2.17E-10,  avg # of iterations =  4.5
+
+     total cpu time spent up to now is       25.9 secs
+
+     End of self-consistent calculation
+
+          k = 0.0000 0.0000 0.0000 ( 14201 PWs)   bands (ev):
+
+   -78.9066 -78.7981 -78.7706 -78.7279 -78.6999 -78.6671 -78.4048 -78.3166
+   -78.2799 -78.2362 -27.0054 -27.0051 -26.9947 -26.9942 -26.9460 -26.9457
+   -26.9018 -26.9013 -26.8935 -26.8932 -26.8858 -26.8851 -26.8653 -26.8649
+   -26.8213 -26.8209 -26.7335 -26.7332 -26.7148 -26.7141 -25.8960 -25.8935
+   -25.8739 -25.8718 -25.8690 -25.8672 -25.8533 -25.8521 -25.8338 -25.8332
+   -22.3130 -22.3044  -6.4268  -6.2976  -6.1683  -6.1439  -6.0294  -6.0040
+    -2.7498  -2.6236  -0.7299  -0.4067   1.1636   1.1894   6.1342   6.1886
+     6.2437   6.2708   6.3284   6.6714   7.4148   8.3578   8.5061   8.9870
+     9.0296   9.1982   9.4189   9.6863  11.0986
+
+          k = 0.0000 0.0000 1.0363 ( 14158 PWs)   bands (ev):
+
+   -78.6064 -78.6029 -78.5909 -78.5138 -78.5082 -78.4955 -78.4912 -78.3952
+   -78.3693 -78.3537 -26.9883 -26.9879 -26.9843 -26.9840 -26.9506 -26.9502
+   -26.9178 -26.9175 -26.9018 -26.9015 -26.8833 -26.8829 -26.8646 -26.8643
+   -26.8208 -26.8202 -26.7334 -26.7330 -26.7154 -26.7149 -25.8942 -25.8930
+   -25.8736 -25.8726 -25.8687 -25.8675 -25.8534 -25.8528 -25.8330 -25.8325
+   -22.3030 -22.2987  -6.4552  -6.4523  -6.3164  -6.2552  -5.9838  -5.9710
+    -2.0377  -1.9491  -0.2374  -0.2143  -0.1449   0.0421   6.2712   6.4083
+     6.8178   7.0281   7.1068   7.1929   7.3750   7.6258   7.7294   7.9856
+     8.4193   8.5761   8.8654   9.3457   9.7416
+
+     highest occupied level (ev):    11.0986
+
+* XDM dispersion
+  a1 =     1.215300
+  a2 (ang) =     2.370400
+  a2 (bohr) =     4.479407
+ 
++ Volumes and moments
+# All results in atomic units (Hartree,bohr)
+# i        V             Vfree           M1             M2             M3
+  1   3.406488E+02   3.487244E+02   1.130007E+01   3.375849E+02   1.546013E+04
+  2   3.406488E+02   3.487244E+02   1.130004E+01   3.375841E+02   1.546010E+04
+  3   1.549531E+02   1.582182E+02   1.113345E+01   2.071073E+02   4.565246E+03
+  4   1.549526E+02   1.582182E+02   1.113346E+01   2.071076E+02   4.565256E+03
+  5   1.551236E+02   1.582182E+02   1.164045E+01   2.165512E+02   4.723259E+03
+  6   1.551241E+02   1.582182E+02   1.164044E+01   2.165510E+02   4.723257E+03
+  7   1.563734E+02   1.582182E+02   1.011347E+01   1.849556E+02   4.004612E+03
+  8   1.563736E+02   1.582182E+02   1.011346E+01   1.849557E+02   4.004621E+03
+ 
++ Dispersion coefficients
+# All results in atomic units (Hartree,bohr).
+# i   j      C6             C8             C10            Rc            Rvdw
+  1   1   1.158331E+03   1.038140E+05   1.068102E+07   9.803187E+00   1.639322E+01
+  2   1   1.158330E+03   1.038138E+05   1.068100E+07   9.803187E+00   1.639322E+01
+  2   2   1.158328E+03   1.038137E+05   1.068099E+07   9.803187E+00   1.639322E+01
+  3   1   3.481106E+02   2.531295E+04   2.050535E+06   8.762802E+00   1.512884E+01
+  3   2   3.481099E+02   2.531290E+04   2.050531E+06   8.762802E+00   1.512884E+01
+  3   3   2.023497E+02   1.129249E+04   6.259843E+05   7.457883E+00   1.354297E+01
+  4   1   3.481097E+02   2.531289E+04   2.050531E+06   8.762803E+00   1.512884E+01
+  4   2   3.481090E+02   2.531284E+04   2.050527E+06   8.762803E+00   1.512884E+01
+  4   3   2.023495E+02   1.129248E+04   6.259839E+05   7.457884E+00   1.354297E+01
+  4   4   2.023493E+02   1.129247E+04   6.259836E+05   7.457886E+00   1.354298E+01
+  5   1   3.507673E+02   2.550671E+04   2.063226E+06   8.759606E+00   1.512496E+01
+  5   2   3.507667E+02   2.550666E+04   2.063222E+06   8.759606E+00   1.512496E+01
+  5   3   2.069708E+02   1.155071E+04   6.385234E+05   7.452771E+00   1.353676E+01
+  5   4   2.069706E+02   1.155070E+04   6.385231E+05   7.452772E+00   1.353676E+01
+  5   5   2.117972E+02   1.182040E+04   6.516161E+05   7.447650E+00   1.353054E+01
+  6   1   3.507683E+02   2.550678E+04   2.063233E+06   8.759606E+00   1.512496E+01
+  6   2   3.507677E+02   2.550673E+04   2.063229E+06   8.759606E+00   1.512496E+01
+  6   3   2.069710E+02   1.155072E+04   6.385245E+05   7.452772E+00   1.353676E+01
+  6   4   2.069708E+02   1.155071E+04   6.385242E+05   7.452773E+00   1.353676E+01
+  6   5   2.117975E+02   1.182042E+04   6.516171E+05   7.447651E+00   1.353054E+01
+  6   6   2.117977E+02   1.182044E+04   6.516182E+05   7.447652E+00   1.353054E+01
+  7   1   3.454562E+02   2.495712E+04   2.011553E+06   8.737617E+00   1.509823E+01
+  7   2   3.454556E+02   2.495707E+04   2.011549E+06   8.737616E+00   1.509823E+01
+  7   3   1.934722E+02   1.070587E+04   5.883234E+05   7.425912E+00   1.350412E+01
+  7   4   1.934720E+02   1.070586E+04   5.883230E+05   7.425913E+00   1.350412E+01
+  7   5   1.976650E+02   1.093820E+04   5.993953E+05   7.420732E+00   1.349782E+01
+  7   6   1.976652E+02   1.093822E+04   5.993964E+05   7.420733E+00   1.349782E+01
+  7   7   1.854966E+02   1.017711E+04   5.543702E+05   7.393779E+00   1.346507E+01
+  8   1   3.454565E+02   2.495715E+04   2.011556E+06   8.737619E+00   1.509823E+01
+  8   2   3.454559E+02   2.495711E+04   2.011552E+06   8.737619E+00   1.509823E+01
+  8   3   1.934722E+02   1.070588E+04   5.883243E+05   7.425915E+00   1.350412E+01
+  8   4   1.934720E+02   1.070587E+04   5.883239E+05   7.425916E+00   1.350412E+01
+  8   5   1.976650E+02   1.093821E+04   5.993962E+05   7.420735E+00   1.349783E+01
+  8   6   1.976652E+02   1.093823E+04   5.993973E+05   7.420736E+00   1.349783E+01
+  8   7   1.854966E+02   1.017712E+04   5.543711E+05   7.393782E+00   1.346507E+01
+  8   8   1.854966E+02   1.017712E+04   5.543720E+05   7.393785E+00   1.346507E+01
+ 
++ van der Waals energies, forces and stresses (Ry,bohr)
+  Evdw(total,Ry)   =  -3.062479288674E-02
+  Evdw(C6,Ry)      =  -2.297619008121E-02
+  Evdw(C8,Ry)      =  -5.851092080627E-03
+  Evdw(C10,Ry)     =  -1.797510724900E-03
+  Fvdw (001,Ry/bohr) =  -2.402644159778E-05   3.923960094612E-06  -2.776092619637E-11
+  Fvdw (002,Ry/bohr) =   2.402628456389E-05  -3.923934448153E-06   2.776088100908E-11
+  Fvdw (003,Ry/bohr) =  -2.113835415127E-06   3.452372349142E-07   1.194540795837E-11
+  Fvdw (004,Ry/bohr) =   2.113964448042E-06  -3.452583082614E-07  -1.194536257151E-11
+  Fvdw (005,Ry/bohr) =  -4.639988738066E-08   7.580534844447E-09   3.070853918364E-11
+  Fvdw (006,Ry/bohr) =   4.656172763759E-08  -7.606966273746E-09  -3.070860063847E-11
+  Fvdw (007,Ry/bohr) =   2.216335177312E-05  -3.619676926531E-06   1.528924327823E-11
+  Fvdw (008,Ry/bohr) =  -2.216348561240E-05   3.619698784845E-06  -1.528918211905E-11
+  sigma_vdw (Ry/bohr**3) =  -1.676137440795E-05  -7.980603236769E-08  -3.265437304203E-14  
+                            -7.980603236769E-08  -1.723699530319E-05   5.333263514726E-15  
+                            -3.265437304203E-14   5.333263514726E-15  -1.723374490975E-05  
+  sigma_vdw (GPa) =  -2.465682887707E-01  -1.173987070246E-03  -4.803623310291E-10  
+                     -1.173987070246E-03  -2.535649125194E-01   7.845500174292E-11  
+                     -4.803623310291E-10   7.845500174292E-11  -2.535170975892E-01  
+ 
+
+!    total energy              =   -2052.23580716 Ry
+     Harris-Foulkes estimate   =   -2052.23580723 Ry
+     estimated scf accuracy    <       0.00000010 Ry
+
+     The total energy is the sum of the following terms:
+
+     one-electron contribution =   -1274.86386519 Ry
+     hartree contribution      =     662.40456832 Ry
+     xc contribution           =    -400.90589062 Ry
+     ewald contribution        =   -1038.83999487 Ry
+     Dispersion XDM Correction =      -0.03062479 Ry
+
+     convergence has been achieved in  14 iterations
+
+     Forces acting on atoms (cartesian axes, Ry/au):
+
+     atom    1 type  1   force =     0.00024174   -0.00003921    0.00000000
+     atom    2 type  1   force =    -0.00024174    0.00003921    0.00000000
+     atom    3 type  2   force =     0.00017659   -0.00002895    0.00000000
+     atom    4 type  2   force =    -0.00017659    0.00002895    0.00000000
+     atom    5 type  2   force =     0.00024953   -0.00004086    0.00000000
+     atom    6 type  2   force =    -0.00024953    0.00004086    0.00000000
+     atom    7 type  2   force =     0.00017359   -0.00002794    0.00000000
+     atom    8 type  2   force =    -0.00017359    0.00002794    0.00000000
+
+     Total force =     0.000611     Total SCF correction =     0.000862
+     SCF correction compared to forces is large: reduce conv_thr to get better values
+
+
+     Computing stress (Cartesian axis) and pressure
+
+          total   stress  (Ry/bohr**3)                   (kbar)     P=-3838.74
+  -0.02651457   0.00025895   0.00000000      -3900.43     38.09      0.00
+   0.00025895  -0.02497133   0.00000000         38.09  -3673.41      0.00
+   0.00000000   0.00000000  -0.02679979          0.00      0.00  -3942.38
+
+
+     Writing output data file LaTe3.save/
+ 
+     init_run     :      1.04s CPU      1.48s WALL (       1 calls)
+     electrons    :     33.43s CPU     34.70s WALL (       1 calls)
+     forces       :      0.49s CPU      0.56s WALL (       1 calls)
+     stress       :      1.51s CPU      1.58s WALL (       1 calls)
+
+     Called by init_run:
+     wfcinit      :      0.24s CPU      0.38s WALL (       1 calls)
+     potinit      :      0.19s CPU      0.22s WALL (       1 calls)
+     hinit0       :      0.34s CPU      0.51s WALL (       1 calls)
+     init_xdm     :      0.00s CPU      0.34s WALL (       1 calls)
+
+     Called by electrons:
+     c_bands      :     10.29s CPU     10.58s WALL (      14 calls)
+     sum_band     :      7.61s CPU      8.19s WALL (      14 calls)
+     v_of_rho     :      0.68s CPU      0.69s WALL (      15 calls)
+     newd         :      2.24s CPU      2.58s WALL (      15 calls)
+     mix_rho      :      0.15s CPU      0.16s WALL (      14 calls)
+     energy_xdm   :     12.56s CPU     12.58s WALL (       1 calls)
+     exdm:environ :      0.03s CPU      0.03s WALL (       2 calls)
+     exdm:rho     :      4.53s CPU      4.54s WALL (       1 calls)
+
+     Called by c_bands:
+     init_us_2    :      0.04s CPU      0.04s WALL (      62 calls)
+     cegterg      :     10.08s CPU     10.35s WALL (      28 calls)
+
+     Called by sum_band:
+     sum_band:bec :      0.01s CPU      0.00s WALL (      28 calls)
+     addusdens    :      2.50s CPU      3.00s WALL (      14 calls)
+
+     Called by *egterg:
+     h_psi        :      5.93s CPU      6.02s WALL (     175 calls)
+     s_psi        :      0.14s CPU      0.13s WALL (     175 calls)
+     g_psi        :      0.01s CPU      0.01s WALL (     145 calls)
+     cdiaghg      :      3.57s CPU      3.81s WALL (     173 calls)
+
+     Called by h_psi:
+     h_psi:pot    :      5.93s CPU      6.01s WALL (     175 calls)
+     h_psi:calbec :      0.19s CPU      0.20s WALL (     175 calls)
+     vloc_psi     :      5.59s CPU      5.66s WALL (     175 calls)
+     add_vuspsi   :      0.14s CPU      0.14s WALL (     175 calls)
+
+     General routines
+     calbec       :      0.26s CPU      0.27s WALL (     213 calls)
+     fft          :      0.75s CPU      0.81s WALL (     268 calls)
+     ffts         :      0.04s CPU      0.03s WALL (      43 calls)
+     fftw         :      9.02s CPU      9.11s WALL (   19022 calls)
+     interpolate  :      0.05s CPU      0.06s WALL (      15 calls)
+ 
+     Parallel routines
+     fft_scatt_xy :      2.10s CPU      2.11s WALL (   19333 calls)
+     fft_scatt_yz :      2.19s CPU      2.25s WALL (   19333 calls)
+ 
+     PWSCF        :     38.15s CPU     41.61s WALL
+
+ 
+   This run was terminated on:  21:50:31  19Apr2019            
+
+=------------------------------------------------------------------------------=
+   JOB DONE.
+=------------------------------------------------------------------------------=
