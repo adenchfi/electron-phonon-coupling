@@ -1,0 +1,147 @@
+\documentclass{article}
+
+\input{/home/adam/useful_scripts_and_templates/LaTeX_Templates/math_pkgs.tex}
+
+\begin{document}
+\title{Deriving the DMFT Self-Consistent Equations}
+\author{Adam Denchfield \\ Supervised by Prof. Hyowon Park and Prof. Peter Littlewood}
+\date{\today{}}
+\maketitle
+\tableofcontents
+\section{The functional approach}
+
+Given a many-body electronic Hamiltonian
+\begin{align*}
+  \hat H = -\frac{\hbar^2}{2M}\sum_i \laplacian_i + \mu + \hat V_{ext} + \hat V_{coulomb},
+\end{align*}
+we can construct an associated action $S$ such that the free energy is given as
+\begin{align*}
+  F = -kT \ln Z \\
+  Z = \int D[\psi^\dagger, \psi] e^{-S}.
+\end{align*}
+When constructing the above free energy and many-body path integral, we performed a change-of-basis such that the fermionic variables $\psi^\dagger, \psi$ appear quadratically for the noninteracting part of the action, and quartic terms appear for the interacting action;
+\begin{align*}
+  S & = S_{0} + S_1 \\
+  S_0 & = \int dx dx' \psi^\dagger (x)(\delta(x-x')(-\pdv{}{\tau} - \frac{\hbar^2}{2M}\laplacian + \mu) + V_ext(x)) \psi(x') \tag{Note $x \equiv (\vec r, \tau)$ constitutes both position and imaginary time}\\
+  S_1 & =\int dx_1 dx_2 dx_3 dx_4 \psi^\dagger(x_1) \psi^\dagger(x_2) V_{int}(x_1, x_2, x_3, x_4) \psi(x_3) \psi(x_4)
+\end{align*}
+where the action is already normal-ordered, which may provide some alterations to the $V_{ext}$ in the noninteracting part of the action. We note that the amplitude $e^{-S_0[\psi^\dagger, \psi]}$ is exactly integrable, but the term $e^{-S_1}$ is not.
+\begin{remark}
+  Note that in the Hubbard model, we would approximate the quartic potential above as
+  \begin{align*}
+    V_{int}(x_1, x_2, x_3, x_4) \approx U\delta(x_1 - x_2) \delta(x_3 - x_4)
+  \end{align*}
+
+\end{remark}
+\begin{remark}
+  One may ask where all the particles are. These are details hidden in the construction of the fermionic many-body variables $\psi$. Note all possible locations and times of the particles is captured by the dependence on $x=(\vec r, t)$. We control for the actual number of fermions in our system by varying the parameter $\mu$ at the end of our calculations.
+\end{remark}
+
+\subsubsection*{How can we compute observables of the system?}
+
+It turns out that most observables of interest can be computed from the two-particle correlation (or Green) function
+\begin{align*}
+  G(x, x') \equiv -\ev{T \psi^\dagger(x) \psi(x')} \equiv \int D[\psi^\dagger, \psi] \psi^\dagger (x) \psi(x') e^{-S[\psi^\dagger, \psi]}.
+\end{align*}
+Therefore, we would like a reliable method of computing $G(x, x')$. We will derive a set of self-consistent equations that does this, using some clever tricks.
+
+First, we parameterize our action as
+\begin{align}
+  \tilde S[\lambda, J[\lambda]] = S_0 + \lambda S_1 - \int dx dx' J(\lambda, x, x') \psi^\dagger(x') \psi(x)
+\end{align}
+We note that $J$ is attached to a quadratic combination of the fermionic variables, and thus is an extra noninteracting source/potential. We require
+\begin{align}
+  J(\lambda=1, x, x') = 0 \quad \forall x, x'
+\end{align}
+Due to the above requirement, we note that $S[1, J[1]] = S$, our original many-body action. We can thus in theory compute the Green function
+\begin{align*}
+  \tilde G[\lambda, J[\lambda]] = \int D[\psi^\dagger, \psi] e^{-\tilde S[\lambda, J[\lambda]]}
+\end{align*}
+Let us note that $S[\lambda=0, J[0]]$ is perfectly quadratic in our fermionic variables, and thus we can find the free energy exactly: 
+\begin{align}
+  F[\lambda=0, J[0]] & = -\Tr \ln\qty(G_0^{-1} - J[0]) \\
+  G_0^{-1}(x, x') & \equiv \delta(x-x')(\partial_\tau - \frac{\hbar^2}{2M} + \mu) + V_{ext}
+\end{align}
+where we note that the trace is really an integral. We may also compute the (inverse of) the Green function exactly at $\lambda=0$, 
+\begin{align*}
+  \tilde G^{-1}[\lambda=0, J[0]] = G_0^{-1} - J[0]
+\end{align*}
+
+\subsubsection*{Where does the cleverness come in?}
+
+We \textbf{require} that $\tilde G[\lambda, J[\lambda]] = G$ for all $\lambda$, a constant (but unknown) matrix. We could thus write $J[0]$ in terms of $G$ as
+\begin{align}\label{eq:self-energy}
+  J[\lambda=0, G] \equiv \Sigma_{int}[G] = G_0^{-1} - G^{-1}
+\end{align}
+
+We thus know at $\lambda=0$, $J[0, G] \equiv \Sigma_{int}[G]$ is what is called the ``self-energy'' matrix of our system. If we were to look at $\Sigma_{int}[G](x, x')$, it would correspond to the interaction energy of particles/fields at locations/times $(x, x')$.
+
+We thus have a little knowledge about the $\lambda=0$ case.
+\begin{definition*}[The source $J$ at other values of $\lambda$]
+  In general, $J[\lambda, G]$ is defined to be \textit{the matrix/source that has to be added to ensure }
+  \begin{align*}
+    G(x, x') \equiv -\ev{T \psi^\dagger (x) \psi(x')}_{S[\lambda, J[\lambda]]}
+  \end{align*}
+\textit{is constant for all $\lambda$. In other words, it is the additional terms needed to ensure the tunnelling amplitudes between states (locations, in this case) $x, x'$ are correctly computed.} 
+\end{definition*}
+
+Recall the definition of the free energy $F[\lambda, J[\lambda]]$ above. We note, through functional derivatives, that
+\begin{align*}
+  \pdv{F[\lambda, J]}{J( \lambda, x', x)} = G(x, x') \implies \pdv{F[\lambda, J]}{J} = G
+\end{align*}
+We would like to use this relation, alongside \eqref{eq:self-energy}, to create a system of self-consistent equations that would let us solve for $G$ and $\Sigma_{int}$ simultaneously. 
+
+Since our self-energy is unknown, this suggests us to try and define a functional $\Gamma$ that only depends on $G$. We may play around with the math;
+\begin{align*}
+  \delta F = G \delta J \tag{Try "integrating by parts" the right side} \\
+  \implies F = \Tr(G \delta J) = \Tr(JG) - \Tr(J \delta G )
+\end{align*}
+\begin{remark}
+  Note that if $\lambda = 1$, the last term above is zero, and if $\lambda=1$, the last term is $-\Tr(\Sigma[G] G)$. 
+\end{remark}
+While not exactly rigorous, this inspires us to try defining a functional
+\begin{align*}
+  \Gamma[G, J[\lambda]] \equiv F[J[\lambda, G]] - \Tr(J[\lambda, G]G)
+\end{align*}
+and we note
+\begin{align*}
+  \delta \Gamma = \frac{\delta F}{\delta J} \frac{\delta J[G]}{\delta G} \delta G - \frac{\delta J[G]}{\delta G} G \delta G - J[G] \delta G
+\end{align*}
+Recalling $\delta F/\delta J = G$, we see that $\delta \Gamma = -J[G] \delta G$. Since these relationships hold for all $\lambda$, we see for $\lambda = 1$, our original problem, $\delta \Gamma = 0$ since $J[1] = 0$. 
+\subsubsection*{What does this tell us?}
+
+This tells us that for $\lambda = 1$ (our original problem), the functional $\Gamma$ is stationary (no first-order changes, $\delta \Gamma = 0$). Alternatively, once we have found the correct $J$, the functional $\Gamma$ will be stationary. Since this relationship holds for all $\lambda$, we also see in our self-consistent calculations that $G$ will stop changing, since $J[\lambda, G] \delta G = 0$ at the optimal point. 
+
+We will rewrite $\Gamma$, by writing $J = \Sigma_{int}[G] + J_1[\lambda, G]$ and $F = F[\lambda=0, J[\lambda=0]] + F_1[\lambda, J_1[\lambda]]$, to have
+\begin{align*}
+  \Gamma = -\Tr \ln \qty(G_0^{-1} - \Sigma_{int}[G]) - \Tr(\Sigma_{int}[G] G) + \underbrace{F_1 - \Tr(J_1 [G] G)}_{\Phi[G]}
+\end{align*}
+
+
+Since we know the stationary point of $\Gamma$ corresponds to the solution of our problem, we will take its functional derivatives and set them equal to zero:
+\begin{align}\label{eq:self-consistency}
+  \frac{\delta \Gamma}{\delta \Sigma_{int}} & = 0 \implies (G_0^{-1} - \Sigma_{int}[G])^{-1} = G \implies \Sigma_{int}[G] = G_0^{-1} - G \\
+  \frac{\delta \Gamma}{\delta G} & = 0 \implies \Sigma_{int} = \frac{\delta \Phi[G]}{\delta G}
+\end{align}
+Note we already knew the first result. In fact, this occurs by construction. This set of equations in theory forms a self-consistent set of equations for $G$ and $\Sigma$. 
+
+\subsubsection*{What is the problem?}
+
+Recall that we do not have a real way of computing $\Phi$ analytically or its derivative with respect to $G$. It is a nontrivial functional of $G$. While we have a formal set of equations that solve our problem, we cannot really compute our $G$ from the above equations. We need another way to compute $G$.
+
+\textit{How about $G = -\ev{T \psi^\dagger \psi}_{S[\lambda=1, J[1]=0]}$? }
+
+The above question is inspired by the idea that the computed $G$ is required to be constant for all $\lambda$ (and associated $J[\lambda]$). This means the ``original'' $G$ is the same as the $G$ we have equations for above (in terms of the self-energy $\Sigma_{int}$). 
+We could in theory try using Monte-Carlo techniques to exactly find the above Green function. However, if we could do that for our original problem, we would have done that.
+
+\subsubsection*{What's the solution? -- Anderson Impurity Model}
+
+There are far too many degrees of freedom in our original action $S$ to simulate using Monte-Carlo techniques. We solve this by formally integrating out most degrees of freedom: 
+
+\end{document}
+
+%%% Local Variables:
+%%% mode: latex
+%%% TeX-master: t
+%%% End:
+  

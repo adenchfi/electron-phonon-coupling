@@ -79,7 +79,7 @@ gs1 = gs.GridSpec(1,2,width_ratios=[3,1]) # Creating the subplots
 gs1.update(wspace=0,hspace=0.0) # I want them right next to eachother
 BND = plt.subplot(gs1[0,0]) #My band diagram
 DOS = plt.subplot(gs1[0,1]) #My DOS plot
-bndplot('bandx.dat.gnu',0.0,'bands.out',BND,'test') #This is my bndplot with *.gnu coming from the output of bands.x, 2.1082 is the fermi level, bandx.out is the symmetries file, and 'test' is the title
+bndplot('bands.dat.gnu',0.0,'bands.out',BND,'test') #This is my bndplot with *.gnu coming from the output of bands.x, 2.1082 is the fermi level, bandx.out is the symmetries file, and 'test' is the title
 ylim = BND.get_ylim()
 dosplot('.',DOS,0.0) #This is my DOS plot with 2.1082 being the fermi level
 DOS.set_ylim(BND.get_ylim()) #Placing the same y-limits

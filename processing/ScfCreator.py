@@ -8,17 +8,24 @@ class Files:
   def __init__(self):
     self.prefix = ''
     self.pdos = """&projwfc
-    prefix='PREFIX'
     Emin=-100, Emax=100.0, DeltaE=0.1
     ngauss=1, degauss=0.02
  /
 """
     self.dos = """&dos
-  prefix='PREFIX'
-  fildos='PREFIX.dos'
   Emin=-100.0, Emax=100.0, DeltaE=0.1
 /
 """
+    self.fermi = """&fermi
+  Emin=-100.0, Emax=100.0, DeltaE=0.1
+/
+"""
+    self.bands = """&bands
+  Emin=-100.0, Emax=100.0, DeltaE=0.1
+/
+"""
+
+
     self.scf = """"""
     self.nscf = """"""
     self.round = 5
@@ -61,7 +68,7 @@ class Files:
         ks = line.split()
         for j in range(0,6):
           if j < 3:
-            self.nscf += str(2*int(ks[j])) + " "
+            self.nscf += str(24) + " "
           else:
             self.nscf += ks[j] + " "
         self.nscf += "\n"
@@ -89,6 +96,8 @@ def main(command):
   f.close()
   f = open('pdos.in','w')
   f.write(outputs.pdos)
+  f = open('fermi.in', 'w')
+  f.write(outputs.fermi)
   f.close()
  
 if __name__ == "__main__":
