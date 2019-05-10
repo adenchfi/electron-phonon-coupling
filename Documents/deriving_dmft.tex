@@ -22,36 +22,38 @@ we can construct an associated action $S$ such that the free energy is given as
 When constructing the above free energy and many-body path integral, we performed a change-of-basis such that the fermionic variables $\psi^\dagger, \psi$ appear quadratically for the noninteracting part of the action, and quartic terms appear for the interacting action;
 \begin{align*}
   S & = S_{0} + S_1 \\
-  S_0 & = \int dx dx' \psi^\dagger (x)(\delta(x-x')(-\pdv{}{\tau} - \frac{\hbar^2}{2M}\laplacian + \mu) + V_ext(x)) \psi(x') \tag{Note $x \equiv (\vec r, \tau)$ constitutes both position and imaginary time}\\
-  S_1 & =\int dx_1 dx_2 dx_3 dx_4 \psi^\dagger(x_1) \psi^\dagger(x_2) V_{int}(x_1, x_2, x_3, x_4) \psi(x_3) \psi(x_4)
+  S_0 & = \sum_{ij} \psi^\dagger (i)(\delta_{ij}(-\pdv{}{\tau} - \frac{\hbar^2}{2M}\laplacian + \mu) + V_{ext}(i, j)) \psi(j) \tag{Note $i \equiv (\vec r, \gamma, \tau)$ constitutes both position, orbital and imaginary time}\\
+  S_1 & =\sum_{ijkl} \psi^\dagger_i \psi^\dagger_j V^{int}_{ijkl} \psi_k \psi_l
 \end{align*}
 where the action is already normal-ordered, which may provide some alterations to the $V_{ext}$ in the noninteracting part of the action. We note that the amplitude $e^{-S_0[\psi^\dagger, \psi]}$ is exactly integrable, but the term $e^{-S_1}$ is not.
 \begin{remark}
   Note that in the Hubbard model, we would approximate the quartic potential above as
   \begin{align*}
-    V_{int}(x_1, x_2, x_3, x_4) \approx U\delta(x_1 - x_2) \delta(x_3 - x_4)
+    V^{int}_{ijkl} \approx U\delta_{ij}\delta_{jk}\delta_{kl}
   \end{align*}
 
 \end{remark}
 \begin{remark}
-  One may ask where all the particles are. These are details hidden in the construction of the fermionic many-body variables $\psi$. Note all possible locations and times of the particles is captured by the dependence on $x=(\vec r, t)$. We control for the actual number of fermions in our system by varying the parameter $\mu$ at the end of our calculations.
+  One may ask where all the particles are. These are details hidden in the construction of the fermionic many-body variables $\psi$. Note all possible lattice sites, orbitals, and times of the particles is captured by the dependence on the indices $i=(\vec r, \gamma, \tau)$ where $\gamma$ denotes the orbital and $\tau$ is imaginary time. We control for the actual number of fermions in our system by varying the parameter $\mu$ at the end of our calculations.
 \end{remark}
 
 \subsubsection*{How can we compute observables of the system?}
 
 It turns out that most observables of interest can be computed from the two-particle correlation (or Green) function
 \begin{align*}
-  G(x, x') \equiv -\ev{T \psi^\dagger(x) \psi(x')} \equiv \int D[\psi^\dagger, \psi] \psi^\dagger (x) \psi(x') e^{-S[\psi^\dagger, \psi]}.
+  G_{ij} \equiv -\ev{T \psi^\dagger_i \psi_j} \equiv \int D[\psi^\dagger, \psi] \psi^\dagger_i \psi_j e^{-S[\psi^\dagger, \psi]}.
 \end{align*}
-Therefore, we would like a reliable method of computing $G(x, x')$. We will derive a set of self-consistent equations that does this, using some clever tricks.
-
+Therefore, we would like a reliable method of computing $G_{ij}$. We will derive a set of self-consistent equations that does this, using some clever tricks.
+\begin{remark}
+  Recall Feynman's method of computing tricky integrals? Let $I$ denote the integral to compute. Feynman would introduce some parameter into the integral, such that $I = I(\alpha)$, with a value $\alpha_0$ such that $I(\alpha_0) = I_0$, our original integral. He would then differentiate underneath the integral sign, obtaining terms like $\pdv{I}{\alpha}$ and maybe higher derivatives. If one can construct a set of differential equations in $\alpha$ the integral $I(\alpha)$ must obey, one can solve those equations rather than trying to compute the integral directly. Furthermore, if one can compute the integral or its derivatives for certain values of $\alpha$, then we have ``boundary conditions'' we can impose on the differential equations. This is the heart of the method introduced below. 
+\end{remark}
 First, we parameterize our action as
 \begin{align}
-  \tilde S[\lambda, J[\lambda]] = S_0 + \lambda S_1 - \int dx dx' J(\lambda, x, x') \psi^\dagger(x') \psi(x)
+  \tilde S[\lambda, J[\lambda]] = S_0 + \lambda S_1 - \sum_{ij} J(\lambda)_{ij} \psi^\dagger(j) \psi(i)
 \end{align}
 We note that $J$ is attached to a quadratic combination of the fermionic variables, and thus is an extra noninteracting source/potential. We require
 \begin{align}
-  J(\lambda=1, x, x') = 0 \quad \forall x, x'
+  J(\lambda=1, i, j) = 0 \quad \forall i, j
 \end{align}
 Due to the above requirement, we note that $S[1, J[1]] = S$, our original many-body action. We can thus in theory compute the Green function
 \begin{align*}
@@ -60,7 +62,7 @@ Due to the above requirement, we note that $S[1, J[1]] = S$, our original many-b
 Let us note that $S[\lambda=0, J[0]]$ is perfectly quadratic in our fermionic variables, and thus we can find the free energy exactly: 
 \begin{align}
   F[\lambda=0, J[0]] & = -\Tr \ln\qty(G_0^{-1} - J[0]) \\
-  G_0^{-1}(x, x') & \equiv \delta(x-x')(\partial_\tau - \frac{\hbar^2}{2M} + \mu) + V_{ext}
+  G_0^{-1}(i, j) & \equiv \delta_{ij}(\partial_\tau - \frac{\hbar^2}{2M} + \mu) + V_{ext}
 \end{align}
 where we note that the trace is really an integral. We may also compute the (inverse of) the Green function exactly at $\lambda=0$, 
 \begin{align*}
@@ -74,20 +76,20 @@ We \textbf{require} that $\tilde G[\lambda, J[\lambda]] = G$ for all $\lambda$, 
   J[\lambda=0, G] \equiv \Sigma_{int}[G] = G_0^{-1} - G^{-1}
 \end{align}
 
-We thus know at $\lambda=0$, $J[0, G] \equiv \Sigma_{int}[G]$ is what is called the ``self-energy'' matrix of our system. If we were to look at $\Sigma_{int}[G](x, x')$, it would correspond to the interaction energy of particles/fields at locations/times $(x, x')$.
+We thus know at $\lambda=0$, $J[0, G] \equiv \Sigma_{int}[G]$ is what is called the ``self-energy'' matrix of our system. If we were to look at $\Sigma_{int}[G](i, j)$, it would correspond to the interaction energy of particles/fields at locations/times $(i, j)$.
 
 We thus have a little knowledge about the $\lambda=0$ case.
 \begin{definition*}[The source $J$ at other values of $\lambda$]
   In general, $J[\lambda, G]$ is defined to be \textit{the matrix/source that has to be added to ensure }
   \begin{align*}
-    G(x, x') \equiv -\ev{T \psi^\dagger (x) \psi(x')}_{S[\lambda, J[\lambda]]}
+    G(i, j) \equiv -\ev{T \psi^\dagger (i) \psi(j)}_{S[\lambda, J[\lambda]]}
   \end{align*}
-\textit{is constant for all $\lambda$. In other words, it is the additional terms needed to ensure the tunnelling amplitudes between states (locations, in this case) $x, x'$ are correctly computed.} 
+\textit{is constant for all $\lambda$. In other words, it is the additional terms needed to ensure the tunnelling amplitudes between states (locations, in this case) $i, j$ are correctly computed.} 
 \end{definition*}
 
 Recall the definition of the free energy $F[\lambda, J[\lambda]]$ above. We note, through functional derivatives, that
 \begin{align*}
-  \pdv{F[\lambda, J]}{J( \lambda, x', x)} = G(x, x') \implies \pdv{F[\lambda, J]}{J} = G
+  \pdv{F[\lambda, J]}{J( \lambda, j, i)} = G(i, j) \implies \pdv{F[\lambda, J]}{J} = G
 \end{align*}
 We would like to use this relation, alongside \eqref{eq:self-energy}, to create a system of self-consistent equations that would let us solve for $G$ and $\Sigma_{int}$ simultaneously. 
 
